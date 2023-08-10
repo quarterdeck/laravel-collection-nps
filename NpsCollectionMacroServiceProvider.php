@@ -15,7 +15,6 @@ class QuarterdeckUIServiceProvider extends ServiceProvider
 	{
 		Collection::macro('nps', function () {
 			return $this->whereInStrict(null, range(0, 10))
-				// ->filter(fn($score) => in_array($score, range(0,10), true))
 				->map(function ($score) {
 					return match ($score) {
 						0,1,2,3,4,5,6 => 'detractor',
