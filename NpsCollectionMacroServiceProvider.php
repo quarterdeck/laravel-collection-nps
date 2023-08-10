@@ -3,6 +3,7 @@
 namespace Quarterdeck;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Collection;
 
 class NpsCollectionMacroServiceProvider extends ServiceProvider
 {
