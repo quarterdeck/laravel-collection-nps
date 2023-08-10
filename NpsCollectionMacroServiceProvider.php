@@ -4,7 +4,7 @@ namespace Quarterdeck;
 
 use Illuminate\Support\ServiceProvider;
 
-class QuarterdeckUIServiceProvider extends ServiceProvider
+class NpsCollectionMacroServiceProvider extends ServiceProvider
 {
 	public function boot()
 	{

@@ -2,6 +2,12 @@
 
 Calculate Net Promoter Score (NPS) from a Collection.
 
+## Install
+
+`composer require quarterdeck/laravel-collection-nps`
+
+# Use
+
 Given a collection of numbers just add `->nps()` and it will spit out an NPS score.
 
 `collect([1,2,3,4,5,6,7,8,9,0,10])->nps(); // -45`
