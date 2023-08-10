@@ -1,6 +1,7 @@
 {
     "name": "quarterdeck/laravel-collection-nps",
     "description": "Laravel Collection Net Promoter Score Macro",
+    "license": "Unlicense",
     "extra": {
         "laravel": {
             "providers": [
