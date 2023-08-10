@@ -1,0 +1,19 @@
+{
+    "name": "quarterdeck/laravel-collection-nps",
+    "description": "Laravel Collection Net Promoter Score Macro",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Quarterdeck\\NpsCollectionMacroServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Quarterdeck\\": "/"
+        }
+    },
+    "require": {
+        "php": "^8.0"
+    }
+}
