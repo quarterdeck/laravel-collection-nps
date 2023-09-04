@@ -29,6 +29,18 @@ class NpsCollectionMacroServiceProvider extends ServiceProvider
 						return 0;
 					}
 
+					if($scores->keys()->doesntContain('detractor')){
+						$scores->put('detractor', 0);
+					}
+
+					if($scores->keys()->doesntContain('passive')){
+						$scores->put('passive', 0);
+					}
+
+					if($scores->keys()->doesntContain('promoter')){
+						$scores->put('promoter', 0);
+					}
+
 					$sum = $scores->sum();
 
 					$percent_promoters = $scores['promoter'] / $sum;
